@@ -1,0 +1,10 @@
+/** Ilustraciones de cada paso de la chicha (SVG 120×120, colores de la marca). */
+const S = (b) => `<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">${b}</svg>`;
+export const ICONOS = {
+  pelar: S('<ellipse cx="56" cy="66" rx="28" ry="36" fill="#f08a1a"/><path d="M40 48q14-20 30-4" stroke="#fff" stroke-opacity=".55" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M78 38l24-20M84 60l24-8" stroke="#6b4a2a" stroke-width="6" stroke-linecap="round"/><path d="M70 82q12 8 24-2q-6-14-24 2z" fill="#f0e6d0"/>'),
+  pilon: S('<path d="M28 62h64l-9 38H37z" fill="#7a5230"/><ellipse cx="60" cy="62" rx="32" ry="8" fill="#a8753d"/><ellipse cx="60" cy="62" rx="22" ry="5" fill="#f0e6d0"/><rect x="70" y="8" width="14" height="62" rx="7" transform="rotate(22 77 40)" fill="#d8b074"/>'),
+  olla: S('<path d="M24 56h72v26a24 24 0 0 1-24 24H48a24 24 0 0 1-24-24z" fill="#b5532a"/><rect x="18" y="50" width="84" height="11" rx="5" fill="#8a3f1e"/><path d="M42 118c-9-9 0-18 5-25 2 7 9 9 5 25zM66 118c-9-9 0-18 5-25 2 7 9 9 5 25z" fill="#f39f07"/><path d="M44 40q-7-9 0-18M60 40q-7-9 0-18M76 40q-7-9 0-18" stroke="#9aa0a6" stroke-width="5" fill="none" stroke-linecap="round"/>'),
+  panela: S('<rect x="20" y="66" width="56" height="26" rx="5" fill="#6b3a12"/><rect x="38" y="40" width="56" height="26" rx="5" fill="#8a4d1a"/><rect x="46" y="46" width="14" height="6" rx="3" fill="#c98a2e"/><path d="M100 74q9 13 0 20q-9-7 0-20z" fill="#a8601f"/><path d="M14 104h92" stroke="#2b1d12" stroke-width="4" stroke-linecap="round"/>'),
+  colar: S('<path d="M14 40h92a46 46 0 0 1-92 0z" fill="#d8b074"/><path d="M30 52l8 24M50 56l4 30M70 56l-4 30M90 52l-8 24" stroke="#8a6a3a" stroke-width="3"/><path d="M52 98q-5 9 0 14q5-5 0-14M68 98q-5 9 0 14q5-5 0-14" fill="#e6b44c"/><rect x="100" y="36" width="16" height="8" rx="4" fill="#7a5230"/>'),
+  tinaja: S('<path d="M44 26h32l8 16c11 11 11 42 0 54-9 9-39 9-48 0-11-12-11-43 0-54z" fill="#b5532a"/><path d="M38 28q22-16 44 0l-4 9H42z" fill="#f0e6d0"/><circle cx="96" cy="26" r="11" fill="#f39f07"/><path d="M26 34a10 10 0 1 0 8 14 8 8 0 0 1-8-14z" fill="#0c8c38"/>'),
+};

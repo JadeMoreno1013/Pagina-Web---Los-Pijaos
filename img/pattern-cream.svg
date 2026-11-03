@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="330" viewBox="0 0 360 330" fill="none" stroke="#d9c7a0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6">
+<path d="M4 26 L28 10 L52 26 M4 38 L28 22 L52 38"/>
+<path d="M64 26 L88 10 L112 26 M64 38 L88 22 L112 38"/>
+<path d="M124 26 L148 10 L172 26 M124 38 L148 22 L172 38"/>
+<path d="M184 26 L208 10 L232 26 M184 38 L208 22 L232 38"/>
+<path d="M244 26 L268 10 L292 26 M244 38 L268 22 L292 38"/>
+<path d="M304 26 L328 10 L352 26 M304 38 L328 22 L352 38"/>
+<path d="M4 78 L15 60 L26 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M34 78 L45 60 L56 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M64 78 L75 60 L86 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M94 78 L105 60 L116 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M124 78 L135 60 L146 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M154 78 L165 60 L176 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M184 78 L195 60 L206 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M214 78 L225 60 L236 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M244 78 L255 60 L266 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M274 78 L285 60 L296 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M304 78 L315 60 L326 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M334 78 L345 60 L356 78 Z" fill="#d9c7a0" stroke="none"/>
+<path d="M30 100 L8 114 L30 128 M52 100 L30 114 L52 128 M74 100 L52 114 L74 128"/>
+<path d="M120 100 L98 114 L120 128 M142 100 L120 114 L142 128 M164 100 L142 114 L164 128"/>
+<path d="M210 100 L188 114 L210 128 M232 100 L210 114 L232 128 M254 100 L232 114 L254 128"/>
+<path d="M300 100 L278 114 L300 128 M322 100 L300 114 L322 128 M344 100 L322 114 L344 128"/>
+<path d="M0 150 H360" stroke-dasharray="8 8"/>
+<path d="M15 145 L25 155 M25 145 L15 155"/>
+<path d="M75 145 L85 155 M85 145 L75 155"/>
+<path d="M135 145 L145 155 M145 145 L135 155"/>
+<path d="M195 145 L205 155 M205 145 L195 155"/>
+<path d="M255 145 L265 155 M265 145 L255 155"/>
+<path d="M315 145 L325 155 M325 145 L315 155"/>
+<path d="M12 205 L60 175 L108 205 L60 235 Z"/><path d="M34 205 L60 190 L86 205 L60 220 Z"/><path d="M52 205 L60 200 L68 205 L60 210 Z" fill="#d9c7a0"/>
+<path d="M132 205 L180 175 L228 205 L180 235 Z"/><path d="M154 205 L180 190 L206 205 L180 220 Z"/><path d="M172 205 L180 200 L188 205 L180 210 Z" fill="#d9c7a0"/>
+<path d="M252 205 L300 175 L348 205 L300 235 Z"/><path d="M274 205 L300 190 L326 205 L300 220 Z"/><path d="M292 205 L300 200 L308 205 L300 210 Z" fill="#d9c7a0"/>
+<polyline points="0,254 20,270 40,254 60,270 80,254 100,270 120,254 140,270 160,254 180,270 200,254 220,270 240,254 260,270 280,254 300,270 320,254 340,270 360,254"/>
+<circle cx="10" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<circle cx="50" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<circle cx="90" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<circle cx="130" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<circle cx="170" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<circle cx="210" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<circle cx="250" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<circle cx="290" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<circle cx="330" cy="262" r="2.5" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="20" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="60" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="100" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="140" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="180" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="220" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="260" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="300" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<ellipse cx="340" cy="305" rx="11" ry="7" fill="#d9c7a0" stroke="none"/>
+<path d="M15 318 V330"/>
+<path d="M45 318 V330"/>
+<path d="M75 318 V330"/>
+<path d="M105 318 V330"/>
+<path d="M135 318 V330"/>
+<path d="M165 318 V330"/>
+<path d="M195 318 V330"/>
+<path d="M225 318 V330"/>
+<path d="M255 318 V330"/>
+<path d="M285 318 V330"/>
+<path d="M315 318 V330"/>
+<path d="M345 318 V330"/>
+</svg>
