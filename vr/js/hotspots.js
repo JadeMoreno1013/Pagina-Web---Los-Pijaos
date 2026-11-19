@@ -1,7 +1,7 @@
 import * as T from 'three';
 import { PAL, sol } from './patrones.js';
 export const hits = [], pins = [];
-const COL = { receta: PAL.amarillo, info: PAL.verde, cartel: PAL.rojo }, v = new T.Vector3();
+const COL = { receta: PAL.amarillo, info: PAL.verde, cartel: PAL.rojo }, v = new T.Vector3(), wc = new T.Vector3();
 
 /** Marcador: sol de la marca con aro blanco y contorno oscuro (legible sobre cualquier fondo) + etiqueta. */
 function marcador(tipo, texto) {
@@ -22,10 +22,10 @@ function marcador(tipo, texto) {
 export function addHotspot(obj, data, pinPos) {
   obj.traverse((o) => { if (o.isMesh) { o.userData.data = data; hits.push(o); } });
   const tipo = data.receta !== undefined ? 'receta' : data.tipo === 'cartel' ? 'cartel' : 'info';
-  const p = marcador(tipo, data.etiqueta || 'Tocar'); p.position.set(...pinPos); p.userData.data = data; obj.add(p); hits.push(p); pins.push(p);
+  const p = marcador(tipo, data.etiqueta || 'Tocar'); p.position.set(...pinPos); p.userData.data = data; p.userData.rango = data.hallazgo ? 12 : 20; obj.add(p); hits.push(p); pins.push(p);
 }
 /** Latido suave y desvanecimiento con la distancia (visibles hasta ~20 m). */
 export function pulse(t, cam) {
   const k = 1 + .07 * Math.sin(t * 4);
-  for (const p of pins) { p.getWorldPosition(v); const a = T.MathUtils.clamp((20 - v.distanceTo(cam.position)) / 6, 0, 1); p.visible = a > 0; p.material.opacity = a; p.scale.set(.26 * k, .13 * k, 1); }
+  for (const p of pins) { p.getWorldPosition(v); const a = T.MathUtils.clamp(((p.userData.rango || 20) - v.distanceTo(cam.getWorldPosition(wc))) / 6, 0, 1); p.visible = a > 0; p.material.opacity = a; p.scale.set(.26 * k, .13 * k, 1); }
 }

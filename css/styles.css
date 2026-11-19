@@ -1869,16 +1869,6 @@ html:not(.js) .menu {
   font-size: 0.92rem;
 }
 
-.gallery--contain {
-  align-items: center;
-}
-
-.gallery--contain img {
-  height: auto;
-  max-height: 22rem;
-  object-fit: contain;
-  background: #fff;
-}
 
 .stage {
   touch-action: none;
@@ -1911,4 +1901,27 @@ html:not(.js) .menu {
 
 .is-locked {
   overflow: hidden;
+}
+
+.card__image--focus-top {
+  object-position: 50% 28%;
+}
+
+.illustrations {
+  display: grid;
+  gap: 2rem;
+  max-width: 46rem;
+  margin-inline: auto;
+}
+
+.illustrations .framed-figure {
+  align-self: start;
+  margin: 0;
+}
+
+@media (min-width: 40rem) {
+  .illustrations {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
 }

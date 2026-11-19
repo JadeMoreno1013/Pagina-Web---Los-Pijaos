@@ -62,6 +62,11 @@
     });
   }
 
+  if (location.protocol === "file:") {
+    var enter = document.getElementById("entrar"), st = document.getElementById("scene-status");
+    if (enter && st) { enter.disabled = true; st.textContent = "Para ver el recorrido 3D abre el sitio desde un servidor (por ejemplo: python3 -m http.server) o desde el hosting publicado, no con doble clic en el archivo."; }
+  }
+
   var currentYear = document.getElementById("current-year");
   if (currentYear) {
     currentYear.textContent = new Date().getFullYear();

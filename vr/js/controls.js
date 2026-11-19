@@ -29,6 +29,7 @@ export function createControls(camera, dom, onTap, root = dom) {
   let tAviso = 0;
   const aviso = (m) => { const el = document.getElementById('aviso'); el.textContent = m; el.classList.add('on'); clearTimeout(tAviso); tAviso = setTimeout(() => el.classList.remove('on'), 2500); };
   return {
+    place(x, z, y) { yaw = y; pitch = 0; ty = null; tpos.set(x, 1.7, z); camera.position.copy(tpos); },
     goTo(pos, look) {
       tpos.set(...pos); const d = new T.Vector3(...look).sub(tpos);
       ty = Math.atan2(-d.x, -d.z); tpitch = Math.atan2(d.y, Math.hypot(d.x, d.z));
